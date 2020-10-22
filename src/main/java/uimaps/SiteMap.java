@@ -4,19 +4,10 @@ import org.openqa.selenium.By;
 
 public class SiteMap {
   
-  public By pesquisa = By.xpath("//input[@name='conteudo']");
-  public By botaoPesquisar = By.xpath("//button[@id='h_search-btn']");  
-  public By botaoComprar = By.xpath("//span[text()='Comprar']");  
+  public By clicaFulano = By.xpath("(//button[@class=\"voting-button--hidden\"])[3]");
+  public By clicaVote = By.xpath("//button[@class=\"voting-button voting-button--medium disabled\"]");  
+  public By clicaVotaNovamente = By.xpath("//button[@class=\"voting-button vote-confirmation__button\"]");  
+  public By clicaBotaozinho = By.xpath("(//span[@data-element='radio'])[3]");  
   
-  public By campo(String name) {
-    return By.xpath("//h1[text()= '" + name + "']");
-  }
   
-  public By texto(String name) {
-    return By.xpath("//a[contains(text(),'" + name + "')]");
-  }
-  
-  public By produto(String texto) {
-    return By.xpath("//h2[contains(text(),'"+texto+"')]");
-  }
 }
