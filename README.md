@@ -1,13 +1,7 @@
 # testeOnline
-Teste automatizado simples em site online 
-site escolhido: submarino
-produto: Gift card Netflix
-
-- Dado que estou num site de compra online
-- Quando fizer uma busca de um produto
-- Entao sera exbibido o resultado da busca
-- Quando adicionar o produto no carrinho
-- Entao ele ira pro carrinho de compras
+Teste automatizado simples pra votacao na AFazenda
+site escolhido: R7.com
+votando no 3° parcipante
 
 teste com metodos e mapeamentos no padrao page objects
 
